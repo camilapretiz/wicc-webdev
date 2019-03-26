@@ -7,37 +7,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,700,700i" rel="stylesheet" type="text/css">
   	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700,700i" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="main.css" />
 
     <style>
-    #right {
-      float: right;
-    }
-
-    #project-wrapper {
-      position: relative;
-      height: 100%;
-      margin-top: 50px;
-      overflow-y: scroll;
-    }
-
-    .wrapper {
-      padding-top: 50px;
-    }
-
-    .banner {
-      padding-top:110px;
-      height: 500px;
-      background: url(banner.jpg) center center;
-      background-size: cover;
-      overflow: hidden; }
-      .banner .over {
-        top: 35%;
-        text-align: center !important;
-        width: 100%; }
-        .banner .over h1 {
-          color: #fff;
-          font-weight: 400;
-          margin-top: 115px !important; }
+    /* Insert more CSS here */
     </style>
   </head>
 
@@ -60,26 +33,39 @@
     	</nav>
 
       <div id="project-wrapper" data-spy="scroll" data-target="#project-navbar">
-        <div id="main" class="container">
-          <div class="banner">
-            <div class="over">
-              <h1>NAME</h1>
-            </div>
+
+        <div class="banner" style="padding-top:110px">
+          <div class="over" id ="main">
+            <h1>NAME</h1>
           </div>
         </div>
 
-        <br>
-
         <div id="about" class="container">
           <h1>About Me</h1>
-          Insert text here <br><br><br><br><br><br>
+            <div class="profile row">
+						<div class="col-sm-2 c">
+							<div class="square_image">
+								<img src="user.png" height="150" width="150" align="left">
+							</div>
+						</div>
+						<div class="col-sm-8 info">
+							<h3>Hello!</h3>
+							<p>
+                Insert text here.
+                <ul>
+                  <li>Item 1
+                  <li>Item 2
+                </ul>
+							</p>
+						</div>
+					</div>
         </div>
 
         <br>
 
         <div id="CHANGE" class="container">
           <h1>CHANGE</h1>
-          Insert text here <br><br><br><br><br><br>
+          Insert text here.
         </div>
 
       </div>
